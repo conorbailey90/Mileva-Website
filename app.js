@@ -9,6 +9,15 @@ navLink.forEach(function(elem) {
     elem.addEventListener("click", menTog);
   });
 
+window.onscroll = function(){
+  let top = window.scrollY;
+
+  if (top < 50){
+    navigation.classList.remove('scrolled');
+  }else{
+    navigation.classList.add('scrolled');
+  }
+}
 
 function menTog() {
     menuToggle.classList.toggle("active");
