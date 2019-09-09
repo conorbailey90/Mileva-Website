@@ -506,10 +506,9 @@ nav{
   .logo{
       position: absolute;
       width: 100%;
-      /* z-index: 999; */
      text-align: center;
      left: 0;
-      /* transform: translate(-50%); */
+
   }
   nav ul li a{
     margin-left: 0;
