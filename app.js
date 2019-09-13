@@ -4,11 +4,16 @@ console.log('Website made by Conor Bailey (www.conbailey.com)')
 const menuToggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.navigation');
 const navLink = document.querySelectorAll(".nav-link");
+const navLogo = document.querySelector('.logo');
+
+console.log(navLogo);
 
 menuToggle.addEventListener('click', menTog);
 navLink.forEach(function(elem) {
     elem.addEventListener("click", menTog);
   });
+
+navLogo.addEventListener('click', menTog);
 
 window.onscroll = function(){
   let top = window.scrollY;
