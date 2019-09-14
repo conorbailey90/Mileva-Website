@@ -15,6 +15,43 @@
 
 }
 
+.splash-screen{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(252, 110, 224);
+    z-index: 9999;
+    transition: all 0.5s ease-out;
+}
+
+.splash-screen.no-display{
+    position: fixed;
+    opacity: 0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    background: rgb(252, 110, 224);
+    transition: all 1s;
+}
+
+.splash-screen h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: blackout2am;
+    font-size: 6rem;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in 1 forwards;
+}
+
 h1 a{
     font-family: blackout2am;
     font-size: 3rem;
@@ -232,6 +269,7 @@ section{
     left: 50%;
     transform: translate(-50%);
     background: #000;
+    overflow: scroll;
 }
 
 
@@ -255,6 +293,7 @@ section{
     z-index: 3;
     background: rgba(0, 0, 0, 0.865);
     z-index: 200;
+    overflow: scroll;
 }
 
 
@@ -274,7 +313,8 @@ section{
 
 .soundcloud{
     position: absolute;
-    top: 3rem;
+    top: 50%;
+    transform: translateY(-30%);
     width: 100%;
     text-align: center;
     height: 60rem;
@@ -647,7 +687,7 @@ nav{
     }
 
     .side-projects{
-        height:70vh;
+        height:100vh;
     }
 
     .press{

@@ -5,6 +5,13 @@ const menuToggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.navigation');
 const navLink = document.querySelectorAll(".nav-link");
 const navLogo = document.querySelector('.logo');
+const splashScreen = document.querySelector('.splash-screen');
+
+
+window.onload = function(){
+  setTimeout(function(){
+    splashScreen.classList.add('no-display')}, 1500
+  )};
 
 console.log(navLogo);
 
