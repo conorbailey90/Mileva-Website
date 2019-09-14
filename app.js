@@ -8,7 +8,7 @@ const navLogo = document.querySelector('.logo');
 const splashScreen = document.querySelector('.splash-screen');
 
 
-window.onload = function(){
+document.onload = function(){
   setTimeout(function(){
     splashScreen.classList.add('no-display')}, 1500
   )};
