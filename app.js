@@ -7,11 +7,15 @@ const navLink = document.querySelectorAll(".nav-link");
 const navLogo = document.querySelector('.logo');
 const splashScreen = document.querySelector('.splash-screen');
 
-
-document.onload = function(){
+document.addEventListener("DOMContentLoaded", function(){
   setTimeout(function(){
     splashScreen.classList.add('no-display')}, 1500
-  )};
+  )});
+
+// window.onload = function(){
+//   setTimeout(function(){
+//     splashScreen.classList.add('no-display')}, 1500
+//   )};
 
 console.log(navLogo);
 
