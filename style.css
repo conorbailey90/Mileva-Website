@@ -50,7 +50,7 @@
     font-size: 6rem;
     opacity: 0;
     color: #000;
-    background: #000;
+    /* background: #000; */
     font-weight: 800;
     animation: fadeIn 1.5s ease-in 1 forwards;
 }
