@@ -22,7 +22,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgb(252, 110, 224);
+    background: #FF69B3;
     z-index: 9999;
     transition: all 0.5s ease-out;
 }
@@ -36,7 +36,7 @@
     height: 100%;
     width: 100%;
     z-index: -10;
-    background: rgb(252, 110, 224);
+    background: #FF69B3;
     transition: all 1s;
 }
 
@@ -84,17 +84,16 @@ section{
 
 .social-media a:hover{
     opacity: .7;
-    color: black;
+    color: #7BFC00;
 }
 
 a{
-    color: rgb(252, 110, 224);
+    color: #FF69B3;
 }
 
 a:hover{
-color: rgb(252, 110, 224);
 transition: all 0.5s;
-opacity: .8;
+opacity: .7;
 }
 
 body{
@@ -177,12 +176,12 @@ nav ul li a{
     
 }
 nav.scrolled ul li a{
-    color: rgb(252, 110, 224);
+    color: #7BFC00;
     
 }
 
 nav.scrolled .logo a{
-    color: rgb(252, 110, 224);
+    color: #FF69B3;
 }
 
 nav ul li a:hover{
@@ -191,7 +190,7 @@ nav ul li a:hover{
 }
 
 nav.scrolled ul li a:hover{
-    color: rgb(252, 110, 224);
+    color: #FF69B3;
     opacity: 0.5
 }
 
@@ -217,7 +216,7 @@ nav.scrolled ul li a:hover{
     right: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient( rgb(252, 110, 224), rgb(123, 16, 87), rgb(255, 90, 222));
+    background-image: linear-gradient( #FF69B3, rgb(239, 49, 144), #FF69B3);
     opacity: .7;
     overflow: hidden;
 
@@ -239,8 +238,9 @@ nav.scrolled ul li a:hover{
     top: 50%;
     margin-top: 1rem;
     transform: translate(-50%, -50%);
-    border: 10px solid black;
+    border: 5px solid #000;
     background: #000;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
 }
 
 section{
@@ -254,7 +254,7 @@ section{
     left: 0;
     width: 100%;
     height: 100vh;
-    color: rgb(255, 184, 241);
+    color: #000;
 
 
 }
@@ -267,8 +267,10 @@ section{
     height: 60vh;
     left: 50%;
     transform: translate(-50%);
-    background: #000;
+    background: #7BFC00;
     overflow: scroll;
+    border: 1px solid black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
 }
 
 
@@ -293,6 +295,8 @@ section{
     background: rgba(0, 0, 0, 0.865);
     z-index: 200;
     overflow: scroll;
+    border: 1px solid black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
 }
 
 
@@ -318,11 +322,14 @@ section{
     text-align: center;
     height: 60rem;
     padding: 1rem;
+    
 
 }
 
 .soundcloud iframe{
     border: 5px solid black;
+    border: 1px solid black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
 }
 
 
@@ -346,6 +353,8 @@ section{
     border: #000 solid 5px;
     background: #000;
     z-index: 10;
+    border: 1px solid black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
 
 }
 
@@ -397,21 +406,22 @@ footer{
     left: 0;
     width: 100%;
     height: 30vh;
-    background-color: black;
-    color: rgb(252, 110, 224);
+    background-color: #7BFC00;
+    color: #000;
     text-align: center;
     padding: 1rem;
 }
 footer a{
     margin: .5rem;
     font-size: 1rem;
+    color: #000;
 }
 .footer-social-media{
     margin-top:1rem; 
 }
 
 #mc-embedded-subscribe-form{
-    background: rgb(252, 110, 224);
+    background: #FF69B3;
 }
 
 input.button{
@@ -420,7 +430,7 @@ input.button{
 
 #mc-embedded-subscribe { 
     background-color: black !important; 
-    color: rgb(252, 110, 224) !important;
+    color: #FF69B3 !important;
 }
 #mc-embedded-subscribe:hover { opacity: 0.8; !important; }
 
@@ -465,7 +475,7 @@ nav{
   }
 
   nav .logo a{
-      color: rgb(252, 110, 224);
+      color: #FF69B3;
   }
   nav.active{
     position: fixed;
@@ -492,8 +502,7 @@ nav{
       margin-top:2rem;
   }
   nav ul li a{
-
-    color: rgb(252, 110, 224);
+    color: #7BFC00;
 }
 .menu-toggle{
     position: fixed;
@@ -510,7 +519,7 @@ nav{
     width: 35px;
     height: 3px;
     margin-top: 2px;
-    background: rgb(252, 110, 224);
+    background: #000;
     display: block;
     transition: all 0.3s;
 }
@@ -532,7 +541,7 @@ nav{
     width: 35px;
     height: 3px;
     margin-top: 2px;
-    background: rgb(252, 110, 224);
+    background: #7BFC00;
     display: block;
 }
 
@@ -568,14 +577,14 @@ nav{
     width: 100%;
     height:4rem;
     top: 0;
-    background: rgb(0, 0, 0);
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background: #7BFC00;
+    border-bottom: 1px solid rgba(0,0,0,1);
     z-index: 900;
     opacity: 0.98;
 }
 
 .mobile-logo a{
-    color: rgb(252, 110, 224);
+    color: #000;
 }
 
 .mobile-logo{
@@ -596,14 +605,14 @@ nav{
 }
 
 .nav-social-media a{
-    color: rgb(252, 110, 224);
+    color: #7BFC00;
     font-size: 1.2rem !important;
     margin: 0.5rem;
 
     
 }
 .nav-social-media a:hover{
-    color: rgb(252, 110, 224);
+    opacity: 0.7;
 }
 
 
@@ -633,7 +642,7 @@ nav{
   }
   nav ul li a{
     margin-left: 0;
-    color: rgb(252, 110, 224); 
+    color: #7BFC00; 
     font-size: .8rem;  
 }
 .social-media{
@@ -650,7 +659,6 @@ nav{
     overflow: hidden;
     margin: auto;
     border: #000 solid 5px;
-    /* background: #D775C2; */
 }
 
 .main-img img{
@@ -676,7 +684,7 @@ nav{
         height: 80vh;
         left: 50%;
         transform: translate(-50%);
-        background: #000;
+        background: #7BFC00;
         opacity: .9;
     }
 
