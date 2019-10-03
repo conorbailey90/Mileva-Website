@@ -15,41 +15,6 @@
 
 }
 
-.splash-screen{
-    position: fixed;
-    text-align: center;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #FF69B3;
-    z-index: 9999;
-    transition: all 0.5s ease-out;
-}
-
-.splash-screen.no-display{
-    position: fixed;
-    opacity: 0;
-    text-align: center;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -10;
-    background: #FF69B3;
-    transition: all 1s;
-}
-
-.splash-logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    font-weight: 800;
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in 1 forwards;
-}
 
 h1 a{
     font-family: blackout2am;
@@ -57,8 +22,6 @@ h1 a{
     font-weight: 500;
 }
 
-section{
-}
 
 
 .social-media{
@@ -87,7 +50,7 @@ section{
 }
 
 a{
-    color: rgb(233, 139, 217);
+    color:rgb(243, 159, 197);
 }
 
 a:hover{
@@ -170,25 +133,26 @@ nav ul{
 
 nav ul li a{
     margin-left: 2rem;
-    color: #000;    
+    color: #000;  
+    font-weight: bold;  
 }
 nav.scrolled ul li a{
-    color: rgb(233, 139, 217);
+    color: rgb(243, 159, 197);
     
 }
 
 nav.scrolled .logo a{
-    color: rgb(233, 139, 217);
+    color: rgb(243, 159, 197);
 }
 
 nav ul li a:hover{
     color: black;
-    opacity: 0.5
+    opacity: 0.7
 }
 
 nav.scrolled ul li a:hover{
-    color: rgb(233, 139, 217);
-    opacity: 0.5
+    color: rgb(243, 159, 197);
+    opacity: 0.7
 }
 
 /* Home */
@@ -213,11 +177,11 @@ nav.scrolled ul li a:hover{
     right: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient( rgba(233, 139, 217, 0.849),rgba(233, 139, 217, 0.336) , rgba(233, 139, 217, 0.849));
+    background-image: linear-gradient( rgb(243, 159, 197),rgba(173, 207, 149, 0.336), rgb(243, 159, 197));
     opacity: .7;
     overflow: hidden;
 
-    
+
 }
 
 .youtube{
@@ -237,7 +201,7 @@ nav.scrolled ul li a:hover{
     transform: translate(-50%, -50%);
     border: 5px solid #000;
     background: #000;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
+    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
 }
 
 section{
@@ -251,7 +215,7 @@ section{
     left: 0;
     width: 100%;
     height: 100vh;
-    color: #000;
+    color: #fff;
 
 
 }
@@ -264,10 +228,10 @@ section{
     height: 60vh;
     left: 50%;
     transform: translate(-50%);
-    background: #C6D1BE;
+    background: #000;
     overflow: scroll;
     border: 1px solid black;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
+    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
 }
 
 
@@ -293,7 +257,7 @@ section{
     z-index: 200;
     overflow: scroll;
     border: 1px solid black;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
+    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
 }
 
 
@@ -319,14 +283,13 @@ section{
     text-align: center;
     height: 60rem;
     padding: 1rem;
-    border: 1px solid #000
     
 
 }
 
 .soundcloud iframe{
     border: 3px solid black;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
+    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
 }
 
 
@@ -347,11 +310,9 @@ section{
     max-height: 100vh;
     overflow: hidden;
     margin: auto;
-    border: #000 solid 5px;
     background: #000;
     z-index: 10;
-    border: 1px solid black;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.461);
+    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
 
 }
 
@@ -404,14 +365,14 @@ footer{
     width: 100%;
     height: 30vh;
     background-color: #000;
-    color: rgb(233, 139, 217);
+    color: rgb(243, 159, 197);
     text-align: center;
     padding: 1rem;
 }
 footer a{
     margin: .5rem;
     font-size: 1rem;
-    color: rgb(233, 139, 217);
+    color: rgb(243, 159, 197);
 }
 .footer-social-media{
     margin-top:1rem; 
@@ -472,7 +433,7 @@ nav{
   }
 
   nav .logo a{
-      color: #FF69B3;
+      color: rgb(243, 159, 197);
   }
   nav.active{
     position: fixed;
@@ -513,13 +474,13 @@ nav{
     width: 35px;
     height: 3px;
     margin-top: 2px;
-    background: #FF69B3;
+    background: rgb(243, 159, 197);
     display: block;
     transition: all 0.3s;
 }
 
 .navigation ul li a{
-    color: #FF69B3;
+    color: rgb(243, 159, 197);
 }
 .menu-toggle.active{
     position: fixed;
@@ -538,7 +499,7 @@ nav{
     width: 35px;
     height: 3px;
     margin-top: 2px;
-    background: #FF69B3;
+    background: rgb(243, 159, 197);
     display: block;
 }
 
@@ -581,7 +542,7 @@ nav{
 }
 
 .mobile-logo a{
-    color: #FF69B3;
+    color: rgb(243, 159, 197);
 }
 
 .mobile-logo{
@@ -602,7 +563,7 @@ nav{
 }
 
 .nav-social-media a{
-    color: #FF69B3;
+    color: rgb(243, 159, 197);
     font-size: 1.2rem !important;
     margin: 0.5rem;
 
