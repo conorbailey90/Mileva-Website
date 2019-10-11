@@ -15,14 +15,11 @@
 
 }
 
-
 h1 a{
     font-family: blackout2am;
     font-size: 3rem;
     font-weight: 500;
 }
-
-
 
 .social-media{
     position: absolute;
@@ -30,8 +27,7 @@ h1 a{
     top: 5rem;
     width: 100%;
     height: 3rem;
-    text-align: center;
-   
+    text-align: center; 
 }
 
 .nav-social-media{
@@ -79,7 +75,6 @@ body{
     -o-background-size: contain;
 }
 
-
  /* Navigation */
 
  .logo{
@@ -87,8 +82,8 @@ body{
      top: 1rem;
      left: 1rem;
      font-family: blackout2am;
-
  }
+
  nav.scrolled{
     position: fixed;
     z-index: 500;
@@ -115,10 +110,10 @@ nav{
     left:0;
     width: 100%;
     height: 4rem;
-    /* background-color: rgb(232, 14, 185, 0.9); */
     border-bottom:2px solid rgb(0, 0, 0,0.3);
     transition: all .5s;
 }
+
 nav ul{
     display: flex;
     position: absolute;
@@ -177,7 +172,7 @@ nav.scrolled ul li a:hover{
     right: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient( rgb(243, 159, 197),rgba(173, 207, 149, 0.336), rgb(243, 159, 197));
+    background-image: linear-gradient( rgb(243, 159, 197),rgba(228, 137, 231, 0.336), rgb(243, 159, 197));
     opacity: .7;
     overflow: hidden;
 
@@ -201,7 +196,7 @@ nav.scrolled ul li a:hover{
     transform: translate(-50%, -50%);
     border: 5px solid #000;
     background: #000;
-    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.753);
 }
 
 section{
@@ -231,7 +226,7 @@ section{
     background: #000;
     overflow: scroll;
     border: 1px solid black;
-    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.753);
 }
 
 
@@ -257,12 +252,8 @@ section{
     z-index: 200;
     overflow: scroll;
     border: 1px solid black;
-    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.753);
 }
-
-
-
-
 
 /* Side Projects */
 
@@ -289,7 +280,7 @@ section{
 
 .soundcloud iframe{
     border: 3px solid black;
-    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.753);
 }
 
 
@@ -306,13 +297,14 @@ section{
 .container{
     position: relative;
     top: 3rem;
-    max-width: 600px;
+    max-width: 700px;
     max-height: 100vh;
     overflow: hidden;
     margin: auto;
     background: #000;
     z-index: 10;
-    box-shadow: 5px 5px rgba(145, 209, 100, 0.753);
+    border: 10px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.753);
 
 }
 
@@ -482,6 +474,9 @@ nav{
 .navigation ul li a{
     color: rgb(243, 159, 197);
 }
+.navigation ul li a:hover{
+    color: rgb(243, 159, 197);
+}
 .menu-toggle.active{
     position: fixed;
     z-index: 9999;
@@ -557,7 +552,7 @@ nav{
     text-align: center;
     width: 100%;
     height:2rem;
-    top: 28rem;
+    top: 80%;
     display: inline-block;
     background: #000;
 }
@@ -565,7 +560,7 @@ nav{
 .nav-social-media a{
     color: rgb(243, 159, 197);
     font-size: 1.2rem !important;
-    margin: 0.5rem;
+    margin: 1rem;
 
     
 }
@@ -600,7 +595,6 @@ nav{
   }
   nav ul li a{
     margin-left: 0;
-    color: #000; 
     font-size: .8rem;  
 }
 .social-media{
@@ -642,13 +636,13 @@ nav{
         height: 80vh;
         left: 50%;
         transform: translate(-50%);
-        background: ;
+    
         opacity: .9;
     }
 
     .tour{
         height: 120vh;
-        /* overflow: scroll; */
+
     }
 
     .side-projects{
